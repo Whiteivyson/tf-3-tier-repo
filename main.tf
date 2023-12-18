@@ -9,4 +9,5 @@ module "ec2" {
   tags = local.six-figure-tags
   public_sn1_id = module.vpc.public_sn1_id
   public_sn2_id = module.vpc.public_sn2_id
+  key_pair_name = "jjtechdev-kp"
 }

@@ -25,3 +25,8 @@ variable "tags" {
     type = map(string)
     description = "(optional) describe your variable"
 }
+
+variable "key_pair_name" {
+  type        = string
+  description = "keypair to utilize"
+}
